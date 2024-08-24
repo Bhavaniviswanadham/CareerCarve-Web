@@ -1,0 +1,38 @@
+.student-card {
+ background-color: #f0f8ff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.student-card h3 {
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  color: #333; /* Dark text color for contrast */
+  margin: 0 0 10px; /* Margin adjustment */
+}
+
+.student-card p {
+  font-family: 'Georgia', serif; /* Serif font for better readability */
+  color: #000000; /* Slightly lighter text color */
+  margin: 0; /* Remove default margin */
+}
+
+.student-card ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.student-card li {
+  margin-bottom: 5px; /* Space between list items */
+}

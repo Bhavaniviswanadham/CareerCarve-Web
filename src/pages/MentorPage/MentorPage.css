@@ -1,0 +1,19 @@
+.mentor-page {
+  padding: 20px;
+  background-color: hsl(180, 4%, 5%);
+  min-height: 100vh;
+}
+
+.mentor-page h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mentor-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

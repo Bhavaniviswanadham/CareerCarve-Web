@@ -1,0 +1,100 @@
+.mentor-booking {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: hsl(0, 0%, 5%);
+}
+
+.mentor-card {
+  background-color: hsl(245, 44%, 95%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.mentor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mentor-card h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  color: #3b27bf;
+}
+
+.mentor-card p {
+  font-family: 'Georgia', serif;
+  color: #000000;
+}
+
+.mentor-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mentor-card li {
+  margin-bottom: 10px;
+}
+
+.mentor-card input[type='radio'] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  border-radius: 8px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.popup p {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.popup button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.popup button:hover {
+  background-color: rgba(25, 239, 50, 0.533)
+}
+.head{
+  color: #ffffff;
+
+}
